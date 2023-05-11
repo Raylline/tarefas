@@ -1,0 +1,36 @@
+body{
+    
+    background-image: linear-gradient(to right, #384448, #53666c, #708a93, #8eb0bc, #add8e6);
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+
+form, #form-tarefa{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+#list-tarefa{
+    list-style: none;
+}
+
+#list-tarefa li{
+    font-size: 4pix;
+}
+
+main{
+    border: 1px solid rgb(60, 175, 221);
+    border-radius: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2px;
+   
+}
+
+#form-buttons{
+    display: flex;
+    justify-content: space-between;
+}

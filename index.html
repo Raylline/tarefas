@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer="" src="index.js"></script>
+    <title>App Tarefas</title>
+    
+</body>
+</html>
+
+
+
+</head>
+<body>
+    <main>
+        <h1>App Tarefas</h1>
+        <h2 id="user"></h2>
+        <h3>Cadastrar Tarefas</h3>
+        <form id="form-tarefa" action="None">
+          <input type="text" autocomplete="off" id="nome" placeholder="Nome">
+          <input type="text" id="descricao" placeholder="Descrição da Tarefa">
+          <input type="text" id="responsavel" placeholder="Responsável">
+          <input type="number" id="nivel" placeholder="Nível">
+          <input type="number" id="prioridade" placeholder="Prioridade">
+          <input type="text" id="situacao" placeholder="Situação">
+          <div id="form-buttons">
+            <input id="btn-cancelar" type="reset" value="Cancelar">
+            <input id="btn-confirmar" type="submit" value="Adicionar Tarefa">
+          </div>
+        </form>
+  
+        <h2>Tarefas Cadastradas</h2>
+  
+        <ul id="list-tarefa"></ul>
+      </main>
+      <footer>
+        <button onclick="logout()">Sair</button>
+      </footer>
+
+
+
+</body></html>
